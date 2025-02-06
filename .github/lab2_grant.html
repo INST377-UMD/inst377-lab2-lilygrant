@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lily Grant Lab 2</title>
+        <style>
+            h2{text-align: center;}
+            body{background-color: rgb(249, 183, 244);}
+
+            .button {background-color: #080000;
+            color: white;}
+
+            .button:hover {
+                background-color: #06a50e;
+            }
+
+            .color-box {
+                background-color: rgb(100, 34, 181); 
+                color: white;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-left: 400px;
+                margin-right: 400px;
+            }
+
+            button{
+                background-color: #120776; 
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+
+        </style>
+    </head>
+
+    <body> 
+        <h1> Pokemon Adoption Form </h1> 
+        <h3>Please enter your Pokemon's Information:</h3>
+        <h4> &#129498 please use its government name &#129498</h4>
+        <form name= "pokemon" mehod="get" action="Grant_Lab2_formsuccess.html">
+            <!--Pokemon Information-->
+            <label for="pokemonname">Pokemon Name: </label>
+            <input type="text" id="pokemonname" required>
+            <br>
+
+            <label for="givenname">Your Pokemon's Given Name: </label>
+            <input type="text" id="givenname"> <br>
+
+            <label for="bday">Your Pokemon's Birthdate:</label>
+            <input type="date" id="bday" required>
+            <br>
+
+            <label for="pokemontype">Pokemon Type</label>
+            <select id="pokemontype" required>
+                <option value="">-- SELECT --</option>
+                <option value="water">Water</option>
+                <option value="normal">Normal</option>
+                <option value="ghost">Ghost</option>
+                <option value="fire">Fire</option>
+                <option value="fairy">Fairy</option>
+                <option value="Fighting">Fighting</option>
+                <option value="dark">Dark</option>
+                <option value="steel">Steel</option>
+                <option value="electric">Electric</option>
+                <option value="grass">Grass</option>
+                <option value="ground">Ground</option>
+                <option value="other">other</option> <br> <hr>
+
+            <input type="submit" class="button"></select>            
+
+        </form>
+
+        <div class="color-box">
+            <h2>This is all the information I really care about...</h2>
+        </div>
+
+    </body>
+
+</html>       
